@@ -1,0 +1,16 @@
+﻿<Window x:Class="FalloutBackupApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Fallout Shelter Backups" Height="327" Width="638" MinWidth="638" MinHeight="327" MaxWidth="638" MaxHeight="327">
+    <Grid>
+        <Button x:Name="Backup_button" Content="Backup all saves" HorizontalAlignment="Left" Margin="54,142,0,0" VerticalAlignment="Top" Width="222" Height="97" Click="Backup_button_Click"/>
+        <Button x:Name="Restore_button" Content="Restore saves from backup" HorizontalAlignment="Left" Margin="341,142,0,0" VerticalAlignment="Top" Width="232" Height="97" Click="Restore_button_Click"/>
+        <Grid.Background>
+            <ImageBrush x:Name="BackgroundImg" Stretch="UniformToFill"/>
+        </Grid.Background>
+    </Grid>
+</Window>
